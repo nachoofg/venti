@@ -1,0 +1,19 @@
+{
+    "type": "list",
+    "name": "option",
+    "message": "\nQue quieres hacer ?",
+    "choices": [
+        {
+            "value": 1,
+            "name": "1. Plantarse"
+        },
+        {
+            "value": 2,
+            "name": "2. Pedir"
+        },
+        {
+            "value": 3,
+            "name": "3. Doblar"
+        }
+    ]
+}
