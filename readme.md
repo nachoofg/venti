@@ -5,7 +5,7 @@ Venti es un juego tipo blackjack mejorado, diseñado para ser jugado en consola.
 ## Características
 
 - **Plataforma**: Terminal (cmd/psh)
-- **Peso**: Linux:49MB Win:40MB MacOS:49MB
+- **Peso**: Linux:49MB Win:40MB MacOS:53MB
 - **Requerimientos**: Una computadora
 - **Tipo de archivo**: Ejecutable (App)
 
