@@ -1,0 +1,19 @@
+{
+    "type": "list",
+    "name": "option",
+    "message": "Bienvenido a 'Venti' un Blackjack con modificaciones\n\nSelecciona un modo:",
+    "choices": [
+        {
+            "value": 1,
+            "name": "1. Jugar"
+        },
+        {
+            "value": 2,
+            "name": "2. Salir"
+        },
+        {
+            "value": 3,
+            "name": "3. Creditos"
+        }
+    ]
+}
