@@ -51,8 +51,11 @@ inquirer
           });
         }
         if (goesOver(arrClient)) return console.log(red("Te pasaste."));
-      default:
+      case 2:
+        process.exit(0)
         return;
+        case 3:
+          return console.log("Hecho por nachoofg https://github.com/nachoofg")
     }
   })
   .catch((err) => {
