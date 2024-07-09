@@ -9,6 +9,11 @@ Venti es un juego tipo blackjack mejorado, diseñado para ser jugado en consola.
 - **Requerimientos**: Una computadora
 - **Tipo de archivo**: Ejecutable (App)
 
+## Plataformas
+- **Windows**: Descarga aca https://github.com/nachoofg/venti/raw/main/venti-win.exe
+- **Linux**: Descarga aca https://github.com/nachoofg/venti/raw/main/venti-linux
+- **Windows**: Descarga aca https://github.com/nachoofg/venti/raw/main/venti-macos
+
 ## Cómo Jugar
 
 El objetivo del juego es obtener una mano de cartas cuya suma sea lo más cercana posible a 21 sin pasarse. Los jugadores compiten contra el dealer (la banca). Venti incorpora varias mejoras sobre el blackjack tradicional.
