@@ -1,15 +1,22 @@
 {
-	"scripts": {
-		"dev": "ts-node src/index"
-	},
-	"devDependencies": {
-		"@types/node": "^20.14.9",
-		"typescript": "^5.5.3"
-	},
-	"dependencies": {
-		"@types/inquirer": "9.0.7",
-		"colors": "^1.4.0",
-		"inquirer": "8.0.0",
-		"ts-node": "^10.9.2"
-	}
+  "scripts": {
+    "dev": "ts-node src/index"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.14.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "inquirer": "8.0.0"
+  },
+  "name": "venti",
+  "version": "1.0.0",
+  "description": "Venti.",
+  "main": "dist/index.js",
+  "author": "nachoofg",
+  "license": "MIT",
+  "bin": "dist/index.js"
 }
