@@ -7,6 +7,7 @@ import { goesOver } from "./fn/goesover";
 import { dealerGoesOver } from "./fn/dgoesover";
 import { much } from "./fn/much";
 import { green, red, yellow } from "colors";
+import { sleep } from "./fn/sleep";
 
 let arrClient = new Map(),
   arrAI = new Map(),
@@ -26,12 +27,15 @@ inquirer
               case 1:
                 if (dealerGoesOver(arrClient, arrAI)) {
                   console.log(green("El dealer se pasó! has ganado."));
+                  sleep("Presiona cualquier tecla para finalizar...");
                   return (cond2 = true);
                 } else if (much(arrAI) > much(arrClient)) {
                   console.log(red("El dealer sacó más que vos, perdiste!"));
+                  sleep("Presiona cualquier tecla para finalizar...");
                   return (cond2 = true);
                 } else if (much(arrClient) > much(arrAI)) {
                   console.log(green("El dealer tiene menos que vos, ganaste!"));
+                  sleep("Presiona cualquier tecla para finalizar...");
                   return (cond2 = true);
                 } else if (much(arrClient) === much(arrAI)) {
                   console.log(yellow("Fue un empate."));
@@ -52,10 +56,13 @@ inquirer
         }
         if (goesOver(arrClient)) return console.log(red("Te pasaste."));
       case 2:
-        process.exit(0)
+        process.exit(0);
         return;
-        case 3:
-          return console.log("Hecho por nachoofg https://github.com/nachoofg")
+      case 3:
+        console.log(
+          "Hecho por nachoofg (https://github.com/nachoofg) en Typescript, compilado por pkg en todos sus formatos disponibles."
+        );
+        return sleep("Presiona cualquier tecla para finalizar...");
     }
   })
   .catch((err) => {
