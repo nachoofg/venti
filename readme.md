@@ -47,6 +47,20 @@ El objetivo del juego es obtener una mano de cartas cuya suma sea lo más cercan
 * ~~Finalizar Automáticamente si el Cliente Tiene 21:~~
 * ~~Actualización de Cartas del Dealer:~~
 * ~~Agregarle un sleep a todas las salidas (creditos/finaliza/pierde/etc)~~
+* Agregar dos modos:
+	* Venti: blackack mod, incluye:
+        - El que esta mas cerca de 21 gana, si uno se pasa en un turno se termina la ronda.
+		- repartir aleatoriamente 2 cartas Venti, sumar una en cada turno
+		- 5 rondas seguidas
+		- 3 turnos
+		- cartas:
+			- "Decem": Agregar un 10 (k,q,j) al oponente.
+			- "Quinque": Agregar un 5 al oponente.
+			- "Quis": Agregar un numero aleatorio (1-11) al oponente.
+			- "Suitai": Repele la ultima carta Venti llegada del oponente	.
+			- "Cancel": Cancela el turno del oponente.
+			- "Ardeat": Elimina todas las cartas del oponente.
+	* Normal: blackjack de toda la vida
 
 ---
 
