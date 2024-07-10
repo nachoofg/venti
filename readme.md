@@ -46,7 +46,7 @@ El objetivo del juego es obtener una mano de cartas cuya suma sea lo más cercan
 * ~~Ocultar la Segunda Carta del Dealer:~~
 * ~~Finalizar Automáticamente si el Cliente Tiene 21:~~
 * ~~Actualización de Cartas del Dealer:~~
-* Agregarle un sleep a todas las salidas (creditos/finaliza/pierde/etc)
+* ~~Agregarle un sleep a todas las salidas (creditos/finaliza/pierde/etc)~~
 
 ---
 
